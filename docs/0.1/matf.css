@@ -1,0 +1,49 @@
+h2 {
+    text-align: center;
+}
+
+body {
+    width : 950px; 
+    font-family : Arial;
+    margin-top : 0pt;
+    font-size : 10pt;
+}
+
+a:link{
+        text-decoration : none;
+        color : #444444; 
+}
+
+a:visited{
+        text-decoration : none;
+        color : #666666; 
+}
+
+
+a:hover   {text-decoration: underline;}
+
+hr
+{
+  border : 0;
+  background-color : E4C5D2;
+  color            : E4C5D2;
+  height           : 1px;
+  width            : 100%;
+}
+
+table.evenodd {
+        border-collapse : colapse;
+        border : 1px #E4C5D2 dashed;
+}
+
+tr.even, td.even {
+        text-align : center;
+}
+
+tr.odd, td.odd {
+        text-align : center;
+}
+
+td.heading {
+        text-align : center;
+}
