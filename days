@@ -36,8 +36,8 @@ trima_sre
 neol_3day
 -neol_uto
 -neol_cet
-mami_3day
--mami_uto -mami_cet
+mami_5day
+// -mami_uto -mami_cet
 -mani_pon
 -mani_pet
 -mani_uto_5
