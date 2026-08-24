@@ -302,8 +302,6 @@ pone_81_ver.v.1'	leiv_81_gra.v.1'
 pone_82_ver.v.1'	rejo_82_gra.v.1'
 
 distinct
-arsa	joma
-kove	trima
 opje	mani
 
 cardinality_alltime
@@ -627,6 +625,15 @@ kove_duration_sre_6
 kove_duration_cet_6
 kove_duration_pet_6
 
+1
+
+cardinality
+kove_duration_pon_5
+kove_duration_uto_5
+kove_duration_sre_5
+kove_duration_cet_5
+kove_duration_pet_5
+
 2
 
 cardinality
@@ -694,10 +701,12 @@ zijo_duration_pet_6
 
 cardinality
 arsa_duration_pon_6
+arsa_duration_uto_6
 arsa_duration_sre_6
+arsa_duration_cet_6
 arsa_duration_pet_6
 
-2
+1
 
 cardinality
 vojo_duration_pon_6
@@ -718,13 +727,22 @@ brsla_pet_1
 0
 
 cardinality
-hata_pon_1
-hata_uto_1
-hata_sre_1
-hata_cet_1
-hata_pet_1
+hata_pon_6
+hata_uto_6
+hata_sre_6
+hata_cet_6
+hata_pet_6
 
-0
+1
+
+cardinality
+stama_pon_1
+stama_uto_1
+stama_sre_1
+stama_cet_1
+stama_pet_1
+
+1
 
 additional
 // veronauka
@@ -1831,15 +1849,21 @@ cmika_83_hem.p.2'_sre
 -brsla_duration_sre_6 brsla_hole1_sre
 -brsla_duration_cet_6 brsla_hole1_cet
 -brsla_duration_pet_6 brsla_hole1_pet
-kove_hole1_uto kove_hole1_cet
+-kove_duration_pon_6 kove_hole1_pon
+-kove_duration_uto_6 kove_hole1_uto
+-kove_duration_sre_6 kove_hole1_sre
+-kove_duration_cet_6 kove_hole1_cet
+-kove_duration_pet_6 kove_hole1_pet
 -zijo_duration_pon_6 zijo_hole1_pon
 -zijo_duration_uto_6 zijo_hole1_uto
 -zijo_duration_sre_6 zijo_hole1_sre
 -zijo_duration_cet_6 zijo_hole1_cet
 -zijo_duration_pet_6 zijo_hole1_pet
-arsa_duration_pet_6
 -arsa_duration_pon_6 arsa_hole1_pon
+-arsa_duration_uto_6 arsa_hole1_uto
 -arsa_duration_sre_6 arsa_hole1_sre
+-arsa_duration_cet_6 arsa_hole1_cet
+-arsa_duration_pet_6 arsa_hole1_pet
 // rupe
 arsa_hole1_pon arsa_hole1_uto arsa_hole1_sre arsa_hole1_cet arsa_hole1_pet
 boal_hole1_pon boal_hole1_uto boal_hole1_sre boal_hole1_cet boal_hole1_pet
@@ -1849,7 +1873,7 @@ cmika_hole1_pon cmika_hole1_uto cmika_hole1_sre cmika_hole1_cet cmika_hole1_pet
 cvone_hole1_pon cvone_hole1_uto cvone_hole1_sre cvone_hole1_cet cvone_hole1_pet
 hata_hole1_pon hata_hole1_uto hata_hole1_sre hata_hole1_cet hata_hole1_pet
 jocve_hole1_pon jocve_hole1_uto jocve_hole1_sre jocve_hole1_cet jocve_hole1_pet
-//joma_hole1_pon joma_hole1_uto joma_hole1_sre joma_hole1_cet joma_hole1_pet
+joma_hole1_pon joma_hole1_uto joma_hole1_sre joma_hole1_cet joma_hole1_pet
 kove_hole1_pon kove_hole1_uto kove_hole1_sre kove_hole1_cet kove_hole1_pet
 kusa_hole1_pon kusa_hole1_uto kusa_hole1_sre kusa_hole1_cet kusa_hole1_pet
 //leiv_hole1_pon leiv_hole1_uto leiv_hole1_sre leiv_hole1_cet leiv_hole1_pet
@@ -1866,12 +1890,14 @@ rojo_hole1_pon rojo_hole1_uto rojo_hole1_sre rojo_hole1_cet rojo_hole1_pet
 stama_hole1_pon stama_hole1_uto stama_hole1_sre stama_hole1_cet stama_hole1_pet
 steda_hole1_pon steda_hole1_uto steda_hole1_sre steda_hole1_cet steda_hole1_pet
 tada_hole1_pon tada_hole1_uto tada_hole1_sre tada_hole1_cet tada_hole1_pet
-//trima_hole1_pon trima_hole1_uto trima_hole1_sre trima_hole1_cet trima_hole1_pet
+trima_hole1_pon trima_hole1_uto trima_hole1_sre trima_hole1_cet trima_hole1_pet
 trina_hole1_pon trina_hole1_uto trina_hole1_sre trina_hole1_cet trina_hole1_pet
 vojo_hole1_pon vojo_hole1_uto vojo_hole1_sre vojo_hole1_cet vojo_hole1_pet
 zijo_hole1_pon zijo_hole1_uto zijo_hole1_sre zijo_hole1_cet zijo_hole1_pet
--arsa_2hole1
--kove_2hole1
+-joma_duration_uto_6
+-joma_duration_cet_6
+-joma_duration_uto_5 joma_hole1_uto
+-joma_duration_cet_5 joma_hole1_cet
 // rupe u svim terminima
 arsa_hole1_pon_2 boal_hole1_pon_2 bosne_hole1_pon_2 brsla_hole1_pon_2 cmika_hole1_pon_2 cvone_hole1_pon_2 hata_hole1_pon_2 jocve_hole1_pon_2 joma_hole1_pon_2 kove_hole1_pon_2 kusa_hole1_pon_2 leiv_hole1_pon_2 mama_hole1_pon_2 mami_hole1_pon_2 mani_hole1_pon_2 neol_hole1_pon_2 opje_hole1_pon_2 pedra_hole1_pon_2 pone_hole1_pon_2 rada_hole1_pon_2 rejo_hole1_pon_2 rojo_hole1_pon_2 stama_hole1_pon_2 steda_hole1_pon_2 tada_hole1_pon_2 trima_hole1_pon_2 trina_hole1_pon_2 vojo_hole1_pon_2 zijo_hole1_pon_2
 arsa_hole1_pon_3 boal_hole1_pon_3 bosne_hole1_pon_3 brsla_hole1_pon_3 cmika_hole1_pon_3 cvone_hole1_pon_3 hata_hole1_pon_3 jocve_hole1_pon_3 joma_hole1_pon_3 kove_hole1_pon_3 kusa_hole1_pon_3 leiv_hole1_pon_3 mama_hole1_pon_3 mami_hole1_pon_3 mani_hole1_pon_3 neol_hole1_pon_3 opje_hole1_pon_3 pedra_hole1_pon_3 pone_hole1_pon_3 rada_hole1_pon_3 rejo_hole1_pon_3 rojo_hole1_pon_3 stama_hole1_pon_3 steda_hole1_pon_3 tada_hole1_pon_3 trima_hole1_pon_3 trina_hole1_pon_3 vojo_hole1_pon_3 zijo_hole1_pon_3
