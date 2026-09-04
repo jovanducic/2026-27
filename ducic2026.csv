@@ -201,8 +201,8 @@ people
 82	kusa	bio.p	1,1
 83	kusa	bio.p	1,1
 84	kusa	bio.p	1,1
-51,53	tada	fra.p	1,1
-52,54	tada	fra.p	1,1
+51,54	tada	fra.p	1,1
+52,53	tada	fra.p	1,1
 61	tada	fra.p	1,1
 62	tada	fra.p	1,1
 63	tada	fra.p	1,1
@@ -717,6 +717,16 @@ vojo_duration_pet_6
 
 1
 
+
+cardinality
+pedra_duration_pon_6
+pedra_duration_uto_6
+pedra_duration_sre_6
+pedra_duration_cet_6
+pedra_duration_pet_6
+
+1
+
 cardinality
 brsla_pon_1
 brsla_uto_1
@@ -745,6 +755,27 @@ stama_pet_1
 1
 
 additional
+51_pon_1
+51_uto_1
+51_sre_1
+51_cet_1
+51_pet_1
+52_uto_1
+52_sre_1
+52_cet_1
+52_pet_1
+//52_pon_1
+53_pon_1
+53_uto_1
+53_sre_1
+53_cet_1
+53_pet_1
+54_pon_1
+54_uto_1
+54_cet_1
+54_pet_1
+54_sre_1
+rejo_sre_1 rejo_cet_1
 // veronauka
 pone_72_ver.v.1'_pon_1 pone_72_ver.v.1'_sre_1
 pone_84_ver.v.1'_pon_1 pone_84_ver.v.1'_sre_1
@@ -782,90 +813,6 @@ tada_64_fra.p.2'_pon_6 tada_64_fra.p.2'_uto_6 tada_64_fra.p.2'_sre_6 tada_64_fra
 -tada_64_fra.p.2'_sre_6 -64_sre_7
 -tada_64_fra.p.2'_cet_6 -64_cet_7
 -tada_64_fra.p.2'_pet_6 -64_pet_7
-tada_53_fra.p.1'_pon_6 tada_53_fra.p.1'_uto_6 tada_53_fra.p.1'_sre_6 tada_53_fra.p.1'_cet_6 tada_53_fra.p.1'_pet_6 tada_53_fra.p.1'_pon_7 tada_53_fra.p.1'_uto_7 tada_53_fra.p.1'_sre_7 tada_53_fra.p.1'_cet_7 tada_53_fra.p.1'_pet_7 tada_53_fra.p.1'_pon_1 tada_53_fra.p.1'_uto_1 tada_53_fra.p.1'_sre_1 tada_53_fra.p.1'_cet_1 tada_53_fra.p.1'_pet_1 tada_53_fra.p.1'_pon_2 tada_53_fra.p.1'_uto_2 tada_53_fra.p.1'_sre_2 tada_53_fra.p.1'_cet_2 tada_53_fra.p.1'_pet_2
-tada_53_fra.p.2'_pon_6 tada_53_fra.p.2'_uto_6 tada_53_fra.p.2'_sre_6 tada_53_fra.p.2'_cet_6 tada_53_fra.p.2'_pet_6 tada_53_fra.p.2'_pon_7 tada_53_fra.p.2'_uto_7 tada_53_fra.p.2'_sre_7 tada_53_fra.p.2'_cet_7 tada_53_fra.p.2'_pet_7 tada_53_fra.p.2'_pon_1 tada_53_fra.p.2'_uto_1 tada_53_fra.p.2'_sre_1 tada_53_fra.p.2'_cet_1 tada_53_fra.p.2'_pet_1 tada_53_fra.p.2'_pon_2 tada_53_fra.p.2'_uto_2 tada_53_fra.p.2'_sre_2 tada_53_fra.p.2'_cet_2 tada_53_fra.p.2'_pet_2
-tada_54_fra.p.1'_pon_6 tada_54_fra.p.1'_uto_6 tada_54_fra.p.1'_sre_6 tada_54_fra.p.1'_cet_6 tada_54_fra.p.1'_pet_6 tada_54_fra.p.1'_pon_7 tada_54_fra.p.1'_uto_7 tada_54_fra.p.1'_sre_7 tada_54_fra.p.1'_cet_7 tada_54_fra.p.1'_pet_7 tada_54_fra.p.1'_pon_1 tada_54_fra.p.1'_uto_1 tada_54_fra.p.1'_sre_1 tada_54_fra.p.1'_cet_1 tada_54_fra.p.1'_pet_1 tada_54_fra.p.1'_pon_2 tada_54_fra.p.1'_uto_2 tada_54_fra.p.1'_sre_2 tada_54_fra.p.1'_cet_2 tada_54_fra.p.1'_pet_2
-tada_54_fra.p.2'_pon_6 tada_54_fra.p.2'_uto_6 tada_54_fra.p.2'_sre_6 tada_54_fra.p.2'_cet_6 tada_54_fra.p.2'_pet_6 tada_54_fra.p.2'_pon_7 tada_54_fra.p.2'_uto_7 tada_54_fra.p.2'_sre_7 tada_54_fra.p.2'_cet_7 tada_54_fra.p.2'_pet_7 tada_54_fra.p.2'_pon_1 tada_54_fra.p.2'_uto_1 tada_54_fra.p.2'_sre_1 tada_54_fra.p.2'_cet_1 tada_54_fra.p.2'_pet_1 tada_54_fra.p.2'_pon_2 tada_54_fra.p.2'_uto_2 tada_54_fra.p.2'_sre_2 tada_54_fra.p.2'_cet_2 tada_54_fra.p.2'_pet_2
--tada_53_fra.p.1'_pon_6 -53_pon_7
--tada_53_fra.p.1'_uto_6 -53_uto_7
--tada_53_fra.p.1'_sre_6 -53_sre_7
--tada_53_fra.p.1'_cet_6 -53_cet_7
--tada_53_fra.p.1'_pet_6 -53_pet_7
--tada_53_fra.p.2'_pon_6 -53_pon_7
--tada_53_fra.p.2'_uto_6 -53_uto_7
--tada_53_fra.p.2'_sre_6 -53_sre_7
--tada_53_fra.p.2'_cet_6 -53_cet_7
--tada_53_fra.p.2'_pet_6 -53_pet_7
--tada_54_fra.p.1'_pon_6 -54_pon_7
--tada_54_fra.p.1'_uto_6 -54_uto_7
--tada_54_fra.p.1'_sre_6 -54_sre_7
--tada_54_fra.p.1'_cet_6 -54_cet_7
--tada_54_fra.p.1'_pet_6 -54_pet_7
--tada_54_fra.p.2'_pon_6 -54_pon_7
--tada_54_fra.p.2'_uto_6 -54_uto_7
--tada_54_fra.p.2'_sre_6 -54_sre_7
--tada_54_fra.p.2'_cet_6 -54_cet_7
--tada_54_fra.p.2'_pet_6 -54_pet_7
--tada_53_fra.p.1'_pon_2 -53_pon_1
--tada_53_fra.p.1'_uto_2 -53_uto_1
--tada_53_fra.p.1'_sre_2 -53_sre_1
--tada_53_fra.p.1'_cet_2 -53_cet_1
--tada_53_fra.p.1'_pet_2 -53_pet_1
--tada_53_fra.p.2'_pon_2 -53_pon_1
--tada_53_fra.p.2'_uto_2 -53_uto_1
--tada_53_fra.p.2'_sre_2 -53_sre_1
--tada_53_fra.p.2'_cet_2 -53_cet_1
--tada_53_fra.p.2'_pet_2 -53_pet_1
--tada_54_fra.p.1'_pon_2 -54_pon_1
--tada_54_fra.p.1'_uto_2 -54_uto_1
--tada_54_fra.p.1'_sre_2 -54_sre_1
--tada_54_fra.p.1'_cet_2 -54_cet_1
--tada_54_fra.p.1'_pet_2 -54_pet_1
--tada_54_fra.p.2'_pon_2 -54_pon_1
--tada_54_fra.p.2'_uto_2 -54_uto_1
--tada_54_fra.p.2'_sre_2 -54_sre_1
--tada_54_fra.p.2'_cet_2 -54_cet_1
--tada_54_fra.p.2'_pet_2 -54_pet_1
--trina_53_rus.p.1'_pon_6 -53_pon_7
--trina_53_rus.p.1'_uto_6 -53_uto_7
--trina_53_rus.p.1'_sre_6 -53_sre_7
--trina_53_rus.p.1'_cet_6 -53_cet_7
--trina_53_rus.p.1'_pet_6 -53_pet_7
--trina_53_rus.p.2'_pon_6 -53_pon_7
--trina_53_rus.p.2'_uto_6 -53_uto_7
--trina_53_rus.p.2'_sre_6 -53_sre_7
--trina_53_rus.p.2'_cet_6 -53_cet_7
--trina_53_rus.p.2'_pet_6 -53_pet_7
--trina_54_rus.p.1'_pon_6 -54_pon_7
--trina_54_rus.p.1'_uto_6 -54_uto_7
--trina_54_rus.p.1'_sre_6 -54_sre_7
--trina_54_rus.p.1'_cet_6 -54_cet_7
--trina_54_rus.p.1'_pet_6 -54_pet_7
--trina_54_rus.p.2'_pon_6 -54_pon_7
--trina_54_rus.p.2'_uto_6 -54_uto_7
--trina_54_rus.p.2'_sre_6 -54_sre_7
--trina_54_rus.p.2'_cet_6 -54_cet_7
--trina_54_rus.p.2'_pet_6 -54_pet_7
--trina_53_rus.p.1'_pon_2 -53_pon_1
--trina_53_rus.p.1'_uto_2 -53_uto_1
--trina_53_rus.p.1'_sre_2 -53_sre_1
--trina_53_rus.p.1'_cet_2 -53_cet_1
--trina_53_rus.p.1'_pet_2 -53_pet_1
--trina_53_rus.p.2'_pon_2 -53_pon_1
--trina_53_rus.p.2'_uto_2 -53_uto_1
--trina_53_rus.p.2'_sre_2 -53_sre_1
--trina_53_rus.p.2'_cet_2 -53_cet_1
--trina_53_rus.p.2'_pet_2 -53_pet_1
--trina_54_rus.p.1'_pon_2 -54_pon_1
--trina_54_rus.p.1'_uto_2 -54_uto_1
--trina_54_rus.p.1'_sre_2 -54_sre_1
--trina_54_rus.p.1'_cet_2 -54_cet_1
--trina_54_rus.p.1'_pet_2 -54_pet_1
--trina_54_rus.p.2'_pon_2 -54_pon_1
--trina_54_rus.p.2'_uto_2 -54_uto_1
--trina_54_rus.p.2'_sre_2 -54_sre_1
--trina_54_rus.p.2'_cet_2 -54_cet_1
--trina_54_rus.p.2'_pet_2 -54_pet_1
 -trina_2hole1_same_day
 -tada_2hole1_same_day
 // prisustvo
