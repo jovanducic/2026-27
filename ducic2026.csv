@@ -654,7 +654,7 @@ neol_duration_pet_6
 
 1
 
-//cardinality
+cardinality
 pedra_duration_pon_6
 pedra_duration_uto_6
 pedra_duration_sre_6
@@ -719,15 +719,6 @@ vojo_duration_pet_6
 
 
 cardinality
-pedra_duration_pon_6
-pedra_duration_uto_6
-pedra_duration_sre_6
-pedra_duration_cet_6
-pedra_duration_pet_6
-
-1
-
-cardinality
 brsla_pon_1
 brsla_uto_1
 brsla_sre_1
@@ -776,6 +767,8 @@ additional
 54_pet_1
 54_sre_1
 rejo_sre_1 rejo_cet_1
+brsla_pon_3
+brsla_uto_3
 // veronauka
 pone_72_ver.v.1'_pon_1 pone_72_ver.v.1'_sre_1
 pone_84_ver.v.1'_pon_1 pone_84_ver.v.1'_sre_1
